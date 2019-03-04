@@ -391,6 +391,38 @@ console.log(_0xdc05)
         message.channel.send("This command requires the `Fetchers` role.", {files: ["https://media0.giphy.com/media/3o752eYI0qTt1Zv368/giphy.gif"]});
       }
       }
+    else if (command == "testws") {
+        message.channel.send("Choosing a random question from the Database");
+        function getRandomInt(min, max) {
+          min = Math.ceil(min);
+          max = Math.floor(max);
+          return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+        }
+        var randomint = getRandomInt(1,1553);
+        let data = {
+          type: 'question',
+          ts: '2018-07-25T01:04:53.926Z',
+          totalTimeMs: 10000,
+          timeLeftMs: 10000,
+          questionId: 49711,
+          question:     qdb[randomint].question,
+          category: 'Culture',
+          answers: 
+          [ { answerId: 151244, text:qdb[randomint].answers[0].text},
+           { answerId: 151245, text: qdb[randomint].answers[1].text},
+           { answerId: 151246, text:qdb[randomint].answers[2].text} ],
+          questionNumber: qdb[randomint].question_num,
+          questionCount: 12,
+          askTime: '2018-07-25T01:04:53.926Z',
+          c: 6,
+          sent: '2018-07-25T01:04:54.004Z' 
+        }
+        solvewithws(message,data,true)
+       
+      
+   
+      
+    }
       else if (command === 'ping') {
         message.channel.send("Pinging...").then(msg => {
             msg.edit(`Pong! Response timer: ${Math.round(client.ping)} milliseconds!`);
