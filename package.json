@@ -1,0 +1,41 @@
+{
+
+  "name": "CHT",
+  "version": "0.1.0",
+  "description": "An open source trivia bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "discord.js": "^11.4.2",
+    "bluebird": "^3.5.3",
+    "btoa": "^1.2.1",
+    "node-fetch": "^2.3.0",
+    "random-number-csprng": "^1.0.2",
+    "request": "^2.88.0",
+    "socket.io": "^2.2.0",
+    "ws": "^6.1.2",
+    "utils": "^0.3.1",
+    "cookie-parser": "^1.4.3",
+    "crypto-js": "^3.1.9-1",
+    "unirest": "^0.5.1",
+    "cheerio": "^0.22.0",
+    "query-string": "^6.2.0",
+    "google": "^2.1.0",
+    "twitter": "^1.7.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "nou"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
