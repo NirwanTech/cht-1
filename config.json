@@ -1,16 +1,14 @@
 {
-  "token": "Tokens below are random and are not valid"
-  "token2": "NDU3MjU2MzAxMjgyNTkwNzUx.DiwJ9w.ewfwefwefwefewfewfewf-XhkoKg2rs5sBiIqD4",
-  "token3": "NDcxMDkyNjQyMjM1Njc4NzIx.gwgewggewg.wegwgewg",
-  "token4" : "wegewgg.Dp_0SQ.wgewgewg-VOWMUk"
+  "note":"Token 1 is grabber token (can be userbot,or a bot you've joined to the servers you want to fetch from), token 2 is bot token",
+  "token": ".DvRuzw.PLFdik7JYyKknSGJeyl3XR3tH6g",
+  "token2": "NTUyMDIwNDUwNTI4NDYwODE1.D15dCQ.",
 
   "devs": [
-    "253325235325",
-    "23532523532555465",
-    "34643643643643"
+    "259811908100554752",
+    "289861487303065610"
 
   ],
-  "prefix": "!",
+  "prefix": "-",
   "countdownactive": false,
   "currentlyconnected" : false,
   "answers": [
@@ -19,26 +17,8 @@
     0
   ],
   "hqchannels": [
-  "495378712716640256",
-  "476478449679073280",
-  "459453560757682177",
-  "456777326944845824",
-  "455376046880194560",
-  "475790039578574858",
-  "473934915990192138",
-  "456017222461161493",
-  "483833245109321748",
-  "440184468213596171",
-  "459842150323060736",
-   "495016500999225354",
-    "453228023240458250",
-    "464767606570876928",
-    "440663723770773506",
-    "461292938803019777",
-    "446444693065039882",
-    "462834951419723776",
-    "457245542456754188",
-    "447599145746956300"
+    "552020704690831360",
+    "552020740551999504"
     
     
   ],
@@ -105,5 +85,5 @@
     "459465728060424192",
     "470326394996654101"
   ],
-    "betachannel": "471457185587527681"
+    "betachannel": "552021376350027817"
 }
