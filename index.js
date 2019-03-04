@@ -392,6 +392,7 @@ console.log(_0xdc05)
       }
       }
     else if (command == "testws") {
+          let qdb = require('data/qdb.json');
         message.channel.send("Choosing a random question from the Database");
         function getRandomInt(min, max) {
           min = Math.ceil(min);
